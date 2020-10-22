@@ -8,7 +8,7 @@ import TMDB from './TMDB';
 
 function App() {
   const [current, setCurrent] = useState({});
-  const [films, setfilms] = useState(TMDB.films);
+  const [films, setFilms] = useState(TMDB.films);
 
   let handleDetailsClick = (film) => {
     console.log(`Fetching details for ${film.title}`);
